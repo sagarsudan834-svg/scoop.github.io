@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoop Doop Taranagar | The Ultimate Ice Cream & Shake Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    <header class="sticky-header">
+        <nav class="container">
+            <div class="logo">Scoop <span class="doop">Doop</span></div>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        
+        <div class="hero-slider">
+            <div class="slide" style="background-image: url(9.avif);"></div>
+            <div class="slide" style="background-image: url(10.avif);"></div>
+            <div class="slide" style="background-image: url('11.jpg');"></div>
+            <div class="slide" style="background-image: url('12.jpg');"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="main-title">Indulge in Happiness.</h1>
+            <p class="subtitle">The creamiest ice creams, super-duper shakes, and juicy fruitinis in Taranagar.</p>
+            <div class="rating">
+                <i class="fas fa-star"></i> 5.0 <span class="reviews">(18 Reviews)</span>
+            </div>
+            <a href="#menu" class="cta-button">View Full Menu</a>
+        </div>
+    </section>
+
+    <section id="about" class="feature-section container">
+        <div class="feature-card">
+            <i class="fas fa-map-marker-alt feature-icon"></i>
+            <h3>Location</h3>
+            <p>Main Market, Radha Krishna Mandir, Ke Pass, Taranagar</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-clock feature-icon"></i>
+            <h3>Open Now!</h3>
+            <p>Closes at 20:00(10 PM)</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-award feature-icon"></i>
+            <h3>Luxury Super Doops</h3>
+            <p>Try the Gabba Gab, Ferrero Rochester, and Gold Chocolate Divine!</p>
+        </div>
+    </section>
+    <br>
+
+    <section id="menu" class="menu-section container">
+        <h2>Our Delicious Menu</h2>
+        
+        <div class="menu-tabs">
+            <button class="menu-tab active" data-category="shakes">Super Duper Shakes</button>
+            <button class="menu-tab" data-category="luxury">Luxury Super Doops</button>
+            <button class="menu-tab" data-category="beverages">Beverages & Lassi</button>
+            <button class="menu-tab" data-category="juices">Fruitini's Juices</button>
+        </div>
+
+        <div class="menu-content active" id="shakes">
+            <h3>Super Duper Shakes</h3>
+            <div class="menu-list" id="shakes-list"></div>
+        </div>
+        <div class="menu-content" id="luxury">
+             <h3>Luxury Super Doops</h3>
+             <div class="menu-list" id="luxury-list"></div>
+        </div>
+        <div class="menu-content" id="beverages">
+             <h3>Beverages & Lassi</h3>
+             <div class="menu-list" id="beverages-list"></div>
+        </div>
+        <div class="menu-content" id="juices">
+            <h3>Fruitini's Juices</h3>
+            <div class="menu-list" id="juices-list"></div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section container">
+        <h2>Photo Gallery & Signature Creations</h2>
+        <div class="photo-grid">
+            <div class="photo-item"><img src="pink ice cream.jpg" alt="Scoop Doop Pink Ice Cream"></div>
+            <div class="photo-item"><img src="milh shake.jpg" alt="Scoop Doop Chocolate Milkshake"></div>
+            <div class="photo-item"><img src="bro.jpg" alt="Scoop Doop Dutch Brownie"></div>
+            <div class="photo-item"><img src="fruit.jpg" alt="Scoop Doop Fruit Sundae"></div>
+            <div class="photo-item"><img src="berry.jpg" alt="Scoop Doop Berry Smoothie"></div>
+            <div class="photo-item"><img src="cone.jpg" alt="Scoop Doop Waffle Cone"></div>
+        </div>
+    </section>
+
+     <section id="contact" class="contact-section container">
+        <a href="#" style="text-decoration: none;"><h2>View More Photos</h2></a>
+      </section>
+      <br>
+
+    <section id="contact" class="contact-section container">
+        <h2>Find Us</h2>
+        <div class="contact-info">
+            <p><i class="fas fa-phone-alt"></i> Contact: 7014941803</p>
+            <p><i class="fas fa-envelope"></i>Email:contact@scoopdooptnr.com</p>
+            <p><i class="fas fa-location-arrow"></i> Address:Main Market, Radha Krishna Mandir Ke Pass, Taranagar, Churu</p>
+        </div>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11100.871037346764!2d75.0210287!3d28.66557635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3913fb9d30000001%3A0xea5f082e18d69f0b!2sTaranagar%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1636900000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Scoop Doop Taranagar. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/scoop_doop_taranagar"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
